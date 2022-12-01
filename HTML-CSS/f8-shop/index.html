@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<!-- Thẻ html thông dụng: 
+    1. h1 - h6 - heading: tiêu đề, nhỏ dần từ 1 -> 6
+    2. p - paragraph: Đoạn
+    3. img - img: Ảnh
+    4. a - anchor: Mỏ Neo - đặt link liên kết
+    5. ul, li - unordered list, list: Hiển Thị Danh Sách
+    6. table: kẻ bảng
+    7. input
+    8. button
+    9. div -->
+<html>
+    <!-- Chú Thích: Phần Đầu: tiêu đề khi load page -->
+    <head>
+        <title> F8 - Shop </title>
+        <meta charset="utf-8">
+    </head>
+
+    <!-- Ctr + /: Phần Thân: Mọi nội dung trong phần này sẽ hiển thị trên page -->
+    <body>
+        <!-- Thẻ h1 -->
+       <h1> Tiêu Đề H1 </h1>
+       <h6> Tiêu Đề H6 </h6>
+       <h5> Tiêu Đề H5 </h5>
+       <p> Đoạn văn đây nè </p>
+
+        <!-- Thẻ p  -->
+        <p> Đoạn văn đây nè </p>
+
+        <!-- Thẻ img -->
+        <!-- scr: địa chỉ ảnh, alt: chữ hiển thị khi ảnh lỗi -->
+        <img src="https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/293799248_3222672521340435_7025628748751351187_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=WDN6zvHqHcUAX_vM5aD&tn=zejbk5m814ej-l0T&_nc_ht=scontent.fsgn13-4.fna&oh=00_AT_6cIX9BjyQiIt-AAJzdxwIAWV62j_5003gH9k5S57yBw&oe=6353B76F" alt="Ảnh đại diện">
+
+        <!-- Thẻ a -->
+        <a href="https://www.facebook.com/LHoang.Quoc/">Tới Trang Cá Nhân</a>
+
+        <!-- thẻ ul, li -->
+        <ul>
+            <!-- li*4 + tab -->
+            <li> Ngày Sinh </li>
+            <li> Nhóm Máu </li>
+            <li> Cung Hoàng Đạo </li>
+            <li> Sở Thích </li>
+        </ul>
+
+        <!-- thẻ ol: liệt kê nhưng đánh số -->
+        <ol>    
+            <li> Ngày Sinh </li>
+            <li> Nhóm Máu </li>
+            <li> Cung Hoàng Đạo </li>
+            <li> Sở Thích </li>
+            <h1> h1 </h1>
+            <h2> h2 </h2>
+            <h3> h3 </h3>
+        </ol>
+
+        <!-- Thẻ table -->
+        <table>
+            <!-- Phần đầu trog thẻ table luôn có thẻ thead & tbody -->
+            <thead>
+                <!--  thẻ th: tiêu đề/ cột -->
+                <th> STT </th>
+                <th> Tên </th>
+                <th> Địa Chỉ </th>
+            </thead>
+
+            <tbody>
+                <!-- thẻ trow: dòng, 1 thẻ là 1 dòng -->
+                <tr>
+                    <!-- Thẻ th ghi thông tin tương ứng với mỗi thẻ th trong thead -->
+                    <td> 1 </td>
+                    <td> Lâm Hoàng Quốc </td>
+                    <td> Đồng Nai </td>
+                </tr>
+
+                <tr>
+                    <!-- Thẻ th ghi thông tin tương ứng với mỗi thẻ th trong thead -->
+                    <td> 2 </td>
+                    <td> Lâm Thụy Cẩm Tiên </td>
+                    <td> Đồng Nai </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Thẻ input: Nhập dữ liệu trên Web -->
+        <!-- text: nhập tự luận -->
+        <input type="text">
+        <!-- checkbox: Ô check -->
+        <input type="checkbox">
+        <!-- radio:  nhiều radio nhưng chỉ chọn được 1 cái (câu hỏi trắc nghiệm)-->
+        <input name = "gende" type="radio">
+        <input name = "gende" type="radio">
+        <input name = "gende" type="radio">
+
+        <!-- Thẻ button: Cái nút -->
+        <button> Đăng Nhập </button>
+
+        <!--  Thẻ div: tạo 1 khối bao quanh những phần tử khác -->
+        <div>
+            <h1> Tiêu Đề H1 </h1>
+            <h6> Tiêu Đề H6 </h6>
+            <p> Đoạn văn đây nè </p>
+            <img src="https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/293799248_3222672521340435_7025628748751351187_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=WDN6zvHqHcUAX_vM5aD&tn=zejbk5m814ej-l0T&_nc_ht=scontent.fsgn13-4.fna&oh=00_AT_6cIX9BjyQiIt-AAJzdxwIAWV62j_5003gH9k5S57yBw&oe=6353B76F" alt="Ảnh đại diện">
+            <a href="https://www.facebook.com/LHoang.Quoc/">Tới Trang Cá Nhân</a>
+            <ul>
+                <li> Ngày Sinh </li>
+                <li> Nhóm Máu </li>
+                <li> Cung Hoàng Đạo </li>
+                <li> Sở Thích </li>
+            </ul>
+            <table>
+                <thead>
+                    <th> STT </th>
+                    <th> Tên </th>
+                    <th> Địa Chỉ </th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 1 </td>
+                        <td> Lâm Hoàng Quốc </td>
+                        <td> Đồng Nai </td>
+                    </tr>
+                    <tr>
+                        <td> 2 </td>
+                        <td> Lâm Thụy Cẩm Tiên </td>
+                        <td> Đồng Nai </td>
+                    </tr>
+                </tbody>
+            </table>
+            <input type="text">
+            <input type="checkbox">
+            <input name = "gende" type="radio">
+            <input name = "gende" type="radio">
+            <input name = "gende" type="radio">
+            <button> Đăng Nhập </button>
+        </div>
+
+        <!-- Attribute: Thuộc Tính -->
+        <h1 title = "Đây Là tiêu Đề "> Atribute1 </h1>
+        <h1 onclick = ""> Atribute2 </h1>
+        <h1 style = ""> Atribute3 </h1>
+    </body>
+</html>
