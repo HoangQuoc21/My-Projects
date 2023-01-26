@@ -216,7 +216,6 @@ int main(){
         cout << "*Luu y:\n";
         cout << "-Cac dia di chuyen tu cot \"A\" sang cot \"C\".\n";
         cout << "-Moi dia se duoc bieu dien boi mot so tuong ung do lon cua no.\n";
-        cout << "-\"0\" co nghia la khong co dia nao o vi tri nay.\n";
         cout << "--------------------------------------------------\n";
         cout << "Hay nhap vao so dia (nhap 0 de thoat): ";
         
@@ -253,9 +252,20 @@ int main(){
             cout << "-So dia: " << n << endl;
             cout << "--------------------------------------------------\n";
 
-            //In giá trị trong các cột và tên cột ra
+            //In các giá trị đĩa ra (không in số 0)
             for (int j = 0; j < n; j++){
-                cout << "\t\t" << cot_dia_goc[j] << "\t" << cot_dia_trung_gian[j] << "\t" << cot_dia_dich[j] << endl;
+                if (cot_dia_goc[j] == 0)
+                    cout << "\t\t";
+                else
+                    cout << "\t\t" << cot_dia_goc[j]; 
+                if (cot_dia_trung_gian[j] == 0)
+                    cout << "\t";
+                else
+                    cout << "\t" << cot_dia_trung_gian[j];
+                if (cot_dia_dich[j] == 0)
+                    cout << "\t\n";
+                else
+                    cout << "\t" << cot_dia_dich[j] << endl;
             }
             
             SetColor(4);
