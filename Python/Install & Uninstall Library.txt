@@ -1,0 +1,18 @@
+* Để cài đặt các thư viện chưa có trong Python trên máy, làm theo các bước:
+B1: Mở command promt
+B2: Gõ Lệnh "pip install <Tên thư viện>"
+B3: Enter
+(Nếu chạy ra dòng "Requirement already satisfied:...." nghĩa là đã cài đặt thư viện đó trên máy rồi)
+(Có 1 số thư viện cài đặt hơi khác, nên lên mạng xem cách cài đặt: "<Tên thư viện> install")
+
+* Để gỡ cài đặt các thư viện không xài nữa trong Python trên máy, làm theo các bước:
+B1: Mở command promt
+B2: Gõ Lệnh "pip uninstall <Tên thư viện>"
+B3: Enter
+B4: Đợi load các file, sau đó Chọn Y
+(Nếu chạy ra dòng "Succesfully uninstalled <Tên thu viện>" nghĩa là đã gỡ thành công)
+
+* Chạy các câu lệnh python trên cmd:
+B1: Mở command promt
+B2: Gõ "python"
+B3: Quẩy
